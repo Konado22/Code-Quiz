@@ -2,8 +2,16 @@
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
+li {
+    border: 1px solid black;
+    opacity: 80%;
+    display: inline-block;
+}
+li:hover{
+    color: blue;
+    background-color: yellow;
+    
+}
 #question-line{
     color: blue;
 }
