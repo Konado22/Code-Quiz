@@ -15,3 +15,13 @@ li:hover{
 #question-line{
     color: blue;
 }
+button {
+    color: white;
+    background-color: purple;
+
+}
+button:hover {
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: inset blueviolet;
+}
