@@ -79,15 +79,13 @@ document.getElementById("start-button").addEventListener("click", function () {
   document.getElementById("start-button").style.display = "none";
   getQuestion();
 });
-document.getElementById("highscore")addEventListener("click",)
-}
 function finishLine(){
   document.getElementById("answer-1").style.display="none";
   document.getElementById("answer-2").style.display="none";
   document.getElementById("answer-3").style.display="none";
   document.getElementById("answer-4").style.display="none";
   const score= timerSet;
-      setTimeout(questionCnt==4);
+      setTimeout(questionCnt==5);
       document.getElementById("start-button").style.display="block";
       document.getElementById("answer-result").textContent="Your score is:" + score;
       var name = prompt("please enter your initials to save highscore");
