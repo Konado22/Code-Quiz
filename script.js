@@ -57,7 +57,7 @@ function BlowMyMind (event){
         timerSet-=10;
     }
     questionCnt++;
-    if (questionCnt>4){
+    if (questionCnt>3){
       finishLine();
     }
     else{
@@ -79,17 +79,18 @@ document.getElementById("start-button").addEventListener("click", function () {
   document.getElementById("start-button").style.display = "none";
   getQuestion();
 });
+document.getElementById("highscore")addEventListener("click",)
+}
 function finishLine(){
   document.getElementById("answer-1").style.display="none";
   document.getElementById("answer-2").style.display="none";
   document.getElementById("answer-3").style.display="none";
-  document.getElementById("answer-4").styel.display="none";
+  document.getElementById("answer-4").style.display="none";
   const score= timerSet;
-      setTimeout(questionCnt==5);
+      setTimeout(questionCnt==4);
       document.getElementById("start-button").style.display="block";
       document.getElementById("answer-result").textContent="Your score is:" + score;
-      alert("please enter your initials to save highscore");
-      var name = alert();
-  window.localStorage("answer-result")
-  window.localStorage(alert)
+      var name = prompt("please enter your initials to save highscore");
+  window.localStorage.setItem(name, score)
 }
+
