@@ -88,5 +88,8 @@ function finishLine(){
       setTimeout(questionCnt==5);
       document.getElementById("start-button").style.display="block";
       document.getElementById("answer-result").textContent="Your score is:" + score;
-
+      alert("please enter your initials to save highscore");
+      var name = alert();
+  window.localStorage("answer-result")
+  window.localStorage(alert)
 }
